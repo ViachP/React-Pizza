@@ -1,4 +1,4 @@
-import "./App.css";
+import React from "react";
 
 function App() {
   return (
@@ -9,12 +9,12 @@ function App() {
             <img width="38" src="./img/pizza-logo.svg" alt="Pizza logo" />
             <div>
               <h1>React Pizza</h1>
-              <p>самая вкусная пицца во вселенной</p>
+              <p>the most delicious pizza in city</p>
             </div>
           </div>
           <div class="header__cart">
             <a href="/cart.html" class="button button--cart">
-              <span>520 ₽</span>
+              <span>12 $</span>
               <div class="button__delimiter"></div>
               <svg
                 width="18"
