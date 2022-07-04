@@ -1,8 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { useSelector } from "react-redux";
 
-import logoSvg from "../assets/img/pizza-logo.svg";
+import logoSvg from "./img/pizza-logo.svg";
 import Button from "./Button";
 
 function Header() {
@@ -16,7 +14,7 @@ function Header() {
             <img width="38" src={logoSvg} alt="Pizza logo" />
             <div>
               <h1>React Pizza</h1>
-              <p>самая вкусная пицца во вселенной</p>
+              <p>the most delicious pizza in the world</p>
             </div>
           </div>
         </Link>
@@ -24,7 +22,7 @@ function Header() {
         <div className="header__cart">
           <Link to="/cart">
             <Button className="button--cart">
-              <span>{totalPrice} ₽</span>
+              <span>{totalPrice} $</span>
               <div className="button__delimiter"></div>
               <svg
                 width="18"
