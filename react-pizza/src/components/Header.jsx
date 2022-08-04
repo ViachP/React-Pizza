@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
-import logoSvg from "../img/pizza-logo.svg";
+import logoSvg from "../assets/img/pizza-logo.svg";
 import Button from "./Button";
 
 function Header() {
