@@ -13,7 +13,7 @@ const Categories = React.memo(function Categories({
           className={activeCategory === null ? "active" : ""}
           onClick={() => onClickCategory(null)}
         >
-          Все
+          All
         </li>
         {items &&
           items.map((name, index) => (
